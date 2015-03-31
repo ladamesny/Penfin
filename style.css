@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div#container {
+  width: 550px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+div#header {
+  text-align: center;
+  font-size: 32px;
+  color: #686868;
+  padding: 15px 0;
+}
+
+div#titles {
+  background-color: #EBEBEB;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+
+div#titles p {
+  margin: 0 auto;
+  color: #686868;
+}
+
+ul li.item {
+  display: flex;
+  align-items:center;
+  border-bottom: 1px solid #EBEBEB;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+p.col-1{
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+p.col-2{
+  margin-left: auto;
+}
+
+div#add_new_item {
+  padding: 15px 0;
+}
+
+button {
+  background-color: #0492FF;
+  box-shadow: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  width: 137.5px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-left: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #686868;
+  margin: 0 15px;
+}
+
+input[type="number"] {
+  border-radius: 5px;
+  box-shadow: inset 0 1px 0 0 #EBEBEB;
+  background: #FAFAFA;
+  padding: 8px 0;
+  text-align: right;
+  font-size: 14px;
+}
+
+div#result {
+  color:#0071DB;
+  font-size: 26px;
+  display: flex;
+  margin: 35px auto;
+}
+
+div#result p.final_result {
+  font-weight: bold;
+  font-size: 45px;
+  margin-right: 15px;
+}
